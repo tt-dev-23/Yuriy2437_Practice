@@ -6,33 +6,34 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f3fbfb;
+  background-color: #f5f9ff;
 }
 
 .card {
-  width: 350px;
+  width: 290px;
   font-family: "Mulish", sans-serif;
 }
 
 .header {
-  min-height: 100px;
+  height: 98px;
   border-radius: 10px 10px 0 0;
-  background-color: #153c63;
+  background-color: #133e61;
   margin-bottom: 30px;
 }
 
 .content {
   border-radius: 0 0 10px 10px;
   background-color: #fff;
-  margin-top: 0;
   position: relative;
   bottom: 30px;
+  padding-left: 34px;
+  padding-right: 34px;
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
-  background-color: #0c013f;
+  width: 52px;
+  height: 52px;
+  background-color: #001e36;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -40,71 +41,60 @@
   transform: translate(50%, 50%);
 }
 
-.logo span {
-  color: #07b4e8;
-  font-size: 1.7em;
-  font-weight: bold;
-  margin: 0;
+.logo::before {
+  content: "Ps";
+  color: #31a8ff;
+  font-size: 1.9em;
+  font-weight: 800;
 }
 
 .inscription {
-  bottom: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: translateX(30%);
 }
 
-.inscription span {
-  color: white;
+.inscription::before {
+  content: "Photoshop";
+  color: #fff;
   font-size: 0.9em;
+  font-weight: 700;
 }
 
 .title {
-  color: darkslategray;
+  color: #2f4f4f;
   font-size: 1.4em;
-  margin-left: 47px;
-  margin-right: 47px;
   border-top-color: #fff;
   padding-top: 30px;
+  margin-bottom: 0.1em;
 }
 
 .text {
-  color: darkslategray;
+  color: #2f4f4f;
   font-weight: 600;
-  font-size: 1em;
-  line-height: 1.5;
-  margin-left: 47px;
-  margin-right: 47px;
+  font-size: 0.9em;
 }
 
 .reference {
   font-size: 1em;
-  margin-left: 47px;
   margin-bottom: 30px;
 }
 
-.btn-container {
-  position: relative;
-  bottom: 20px;
+.reference a {
+  color: #097dd6;
 }
 
 .btn {
   text-decoration: none;
-  background: #153c63;
+  background: #133e61;
   color: #fff;
   padding: 10px;
   cursor: pointer;
   border-radius: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-  display: block;
-  justify-content: center;
-}
-
-.btn span {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  bottom: 32px;
 }
