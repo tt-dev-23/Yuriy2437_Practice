@@ -10,15 +10,22 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 290px;
   font-family: "Mulish", sans-serif;
 }
 
 .header {
-  height: 98px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   border-radius: 10px 10px 0 0;
   background-color: #133e61;
-  margin-bottom: 30px;
+  padding-left: 23px;
+  padding-top: 23px;
+  padding-bottom: 53px;
 }
 
 .content {
@@ -28,6 +35,7 @@
   bottom: 30px;
   padding-left: 34px;
   padding-right: 34px;
+  padding-bottom: 32px;
 }
 
 .logo {
@@ -38,11 +46,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(50%, 50%);
-}
-
-.logo::before {
-  content: "Ps";
   color: #31a8ff;
   font-size: 1.9em;
   font-weight: 800;
@@ -51,22 +54,16 @@
 .inscription {
   display: flex;
   justify-content: center;
-  align-items: center;
-  transform: translateX(30%);
-}
-
-.inscription::before {
-  content: "Photoshop";
+  align-items: flex-end;
+  margin-right: 25px;
   color: #fff;
   font-size: 0.9em;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .title {
   color: #2f4f4f;
   font-size: 1.2em;
-  border-top-color: #fff;
-  padding-top: 30px;
   margin-bottom: 0.1em;
 }
 
@@ -77,6 +74,7 @@
 }
 
 .reference {
+  display: block;
   font-size: 0.9em;
   margin-bottom: 30px;
 }
@@ -90,11 +88,9 @@
   background: #133e61;
   color: #fff;
   padding: 10px;
-  cursor: pointer;
   border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 32px;
 }
