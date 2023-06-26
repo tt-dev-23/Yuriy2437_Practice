@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f9ff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 290px;
+  font-family: "Mulish", sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #133e61;
+  padding: 23px;
+}
+
+.content {
+  background-color: #fff;
+  padding: 2em;
+}
+
+.logo {
+  width: 52px;
+  height: 52px;
+  background-color: #001e36;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #31a8ff;
+  font-size: 1.9em;
+  font-weight: 800;
+}
+
+.inscription {
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.title {
+  color: #2f4f4f;
+  font-size: 1.2em;
+  margin: 0 0 0 0.1em;
+}
+
+.text {
+  color: #2f4f4f;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.reference {
+  display: block;
+  font-size: 0.9em;
+  margin-bottom: 30px;
+  color: #0633d8;
+}
+
+.btn {
+  text-decoration: none;
+  background: #133e61;
+  color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
