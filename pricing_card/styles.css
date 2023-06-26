@@ -24,17 +24,13 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: #133e61;
-  padding-left: 23px;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  padding: 23px 0 23px 23px;
 }
 
 .content {
   background-color: #fff;
   bottom: 30px;
-  padding-left: 34px;
-  padding-right: 34px;
-  padding-bottom: 32px;
+  padding: 0 34px 32px;
 }
 
 .logo {
