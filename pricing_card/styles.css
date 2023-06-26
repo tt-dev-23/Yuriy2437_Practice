@@ -25,7 +25,7 @@
   justify-content: space-between;
   align-items: baseline;
   background-color: #133e61;
-  padding: 23px 0 23px 23px;
+  padding: 23px;
 }
 
 .content {
@@ -50,7 +50,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-right: 25px;
   color: #fff;
   font-size: 0.9em;
   font-weight: 500;
