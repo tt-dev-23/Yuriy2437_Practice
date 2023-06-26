@@ -3,27 +3,169 @@
   <head>
     <meta charset="UTF-8" />
     <title>Notification</title>
-    <link href="styles.css" rel="stylesheet" />
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f3ebfb;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 350px;
+        border-radius: 10px;
+        background-color: #fff;
+        padding-left: 30px;
+        box-sizing: border-box;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .corner_circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        background-color: #f3ebfb;
+        border-radius: 50%;
+        margin-top: 15px;
+      }
+
+      .corner_cross {
+        position: relative;
+        width: 15px;
+        height: 15px;
+      }
+
+      .corner_cross::before,
+      .corner_cross::after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background-color: #000;
+      }
+
+      .corner_cross::before {
+        left: 7px;
+        transform: rotate(45deg);
+      }
+
+      .corner_cross::after {
+        right: 7px;
+        transform: rotate(-45deg);
+      }
+
+      .text {
+        display: flex;
+        font-size: 1.2em;
+        font-family: sans-serif;
+        color: #39355c;
+        padding-top: 15px;
+        padding-right: 80px;
+      }
+
+      .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+      }
+
+      .purple_square {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #d758fd;
+      }
+
+      .purple_square svg path {
+        stroke: #fff;
+      }
+
+      .website {
+        font-size: 0.7em;
+        font-family: sans-serif;
+        color: #39355c;
+        padding-left: 5px;
+      }
+
+      .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: flex-end;
+        width: 100%;
+        padding: 15px 30px;
+        box-sizing: border-box;
+      }
+
+      .btn_block {
+        display: flex;
+        text-decoration: none;
+        background: #fff;
+        font-size: 0.7em;
+        font-family: sans-serif;
+        color: #fc7c7c;
+        padding: 6px 16px;
+        margin-right: 5px;
+        cursor: pointer;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+
+      .btn_allow {
+        display: flex;
+        text-decoration: none;
+        background: #fff;
+        font-size: 0.7em;
+        font-family: sans-serif;
+        color: #9ed8c0;
+        padding: 6px 16px;
+        margin-left: 5px;
+        cursor: pointer;
+        border: 1px solid;
+        border-radius: 5px;
+      }
+    </style>
   </head>
   <body>
-    <div class="container" onclick="window.open('https://user-images.githubusercontent.com/30548361/245473671-5d8588f7-9d1c-4c4f-a64d-4cc63add65c4.png')">
-      <div class="white_rectangle">
-        <h3 class="text">Show notifications for</h3>
-        <span class="purple_square">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" style="width: 18px; height: 18px">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"
-            />
-          </svg>
-        </span>
-
-        <span class="website">www.website.com</span>
-        <a href="https://user-images.githubusercontent.com/30548361/245473671-5d8588f7-9d1c-4c4f-a64d-4cc63add65c4.png" class="btn_block">Block</a>
-        <a href="https://user-images.githubusercontent.com/30548361/245473671-5d8588f7-9d1c-4c4f-a64d-4cc63add65c4.png" class="btn_allow">Allow</a>
-        <div class="corner_circle">
-          <div class="corner_cross"></div>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+          <h3 class="text">Show notifications for</h3>
+          <div class="corner_circle">
+            <div class="corner_cross"></div>
+          </div>
+        </div>
+        <div class="logo">
+          <div class="purple_square">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" style="width: 18px; height: 18px">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"
+              />
+            </svg>
+          </div>
+          <div class="website">www.website.com</div>
+        </div>
+        <div class="btn">
+          <a href="https://user-images.githubusercontent.com/30548361/245473671-5d8588f7-9d1c-4c4f-a64d-4cc63add65c4.png" class="btn_block">Block</a>
+          <a href="https://user-images.githubusercontent.com/30548361/245473671-5d8588f7-9d1c-4c4f-a64d-4cc63add65c4.png" class="btn_allow">Allow</a>
         </div>
       </div>
     </div>
