@@ -15,23 +15,22 @@
   justify-content: center;
   width: 290px;
   font-family: "Mulish", sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-radius: 10px 10px 0 0;
   background-color: #133e61;
   padding-left: 23px;
   padding-top: 23px;
-  padding-bottom: 53px;
+  padding-bottom: 23px;
 }
 
 .content {
-  border-radius: 0 0 10px 10px;
   background-color: #fff;
-  position: relative;
   bottom: 30px;
   padding-left: 34px;
   padding-right: 34px;
