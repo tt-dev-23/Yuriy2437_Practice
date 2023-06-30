@@ -81,7 +81,7 @@ html {
   align-items: center;
 }
 
-.purple_square {
+.icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +91,7 @@ html {
   background-image: linear-gradient(to bottom right, #737bff, #e07cff);
 }
 
-.purple_square svg path {
+.icon svg path {
   stroke: #fff;
 }
 
