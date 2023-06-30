@@ -89,7 +89,6 @@ html {
 }
 
 .website {
-  font-size: 1rem;
   font-weight: 500;
   color: #151515;
   padding-left: 0.5rem;
@@ -103,7 +102,6 @@ html {
 
 .btn_block {
   text-decoration: none;
-  font-size: 1rem;
   font-weight: 900;
   font-family: sans-serif;
   color: #ff2222;
@@ -115,7 +113,6 @@ html {
 
 .btn_allow {
   text-decoration: none;
-  font-size: 1rem;
   font-weight: 900;
   color: #24c446;
   padding: 1.06rem 1.6rem;
