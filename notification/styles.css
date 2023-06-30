@@ -43,7 +43,7 @@ html {
   margin-top: -1rem;
 }
 
-.corner_cross {
+.close_button_cross {
   display: flex;
   justify-content: center;
   position: relative;
@@ -51,8 +51,8 @@ html {
   height: 2rem;
 }
 
-.corner_cross::before,
-.corner_cross::after {
+.close_button_cross::before,
+.close_button_cross::after {
   content: "";
   position: absolute;
   width: 2px;
@@ -60,11 +60,11 @@ html {
   background-color: #9e8eb9;
 }
 
-.corner_cross::before {
+.close_button_cross::before {
   transform: rotate(45deg);
 }
 
-.corner_cross::after {
+.close_button_cross::after {
   transform: rotate(-45deg);
 }
 
