@@ -32,7 +32,7 @@ html {
   align-items: flex-start;
 }
 
-.corner_circle {
+.close_button {
   display: flex;
   justify-content: center;
   align-items: center;
