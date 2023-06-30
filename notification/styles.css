@@ -89,10 +89,7 @@ html {
   height: 3.6rem;
   border-radius: 1rem;
   background-image: linear-gradient(to bottom right, #737bff, #e07cff);
-}
-
-.icon svg path {
-  stroke: #fff;
+  color: #fff;
 }
 
 .website {
