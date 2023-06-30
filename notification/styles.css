@@ -102,7 +102,7 @@ html {
 
 .btn_block {
   text-decoration: none;
-  font-weight: 900;
+  font-weight: bold;
   font-family: sans-serif;
   color: #ff2222;
   padding: 1.06rem 1.6rem;
@@ -113,7 +113,7 @@ html {
 
 .btn_allow {
   text-decoration: none;
-  font-weight: 900;
+  font-weight: bold;
   color: #24c446;
   padding: 1.06rem 1.6rem;
   margin: 1rem 0 0 0.5rem;
