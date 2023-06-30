@@ -22,7 +22,6 @@ html {
   background-color: #fff;
   font-family: "Poppins", sans-serif;
   padding: 3.4rem 2rem 3rem 4.5rem;
-  box-sizing: border-box;
 }
 
 .header {
@@ -103,7 +102,6 @@ html {
   display: flex;
   justify-content: right;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .btn_block {
