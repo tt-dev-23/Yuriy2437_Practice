@@ -16,7 +16,6 @@ html {
 .card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   width: 34.5rem;
   border-radius: 1.5rem;
   background-color: #fff;
@@ -27,8 +26,6 @@ html {
 .header {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
-  align-items: flex-start;
 }
 
 .close_button {
