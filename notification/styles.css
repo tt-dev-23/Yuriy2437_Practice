@@ -26,20 +26,20 @@ html {
 
 .header {
   display: flex;
+  justify-content: space-between;
 }
 
 .close_button {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   width: 3.75rem;
   height: 3.75rem;
   background-color: #f3ebfb;
   border-radius: 50%;
   margin-top: -1rem;
   cursor: pointer;
-  position: absolute;
-  right: 24.7rem;
 }
 
 .close_button_cross {
