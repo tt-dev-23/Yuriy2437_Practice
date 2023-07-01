@@ -21,6 +21,7 @@ html {
   background-color: #fff;
   font-family: "Poppins", sans-serif;
   padding: 3.4rem 2rem 3rem 4.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem #ded0f5;
 }
 
 .header {
@@ -86,6 +87,7 @@ html {
   border-radius: 1rem;
   background-image: linear-gradient(to bottom right, #737bff, #e07cff);
   color: #fff;
+  box-shadow: 0.25rem 0.25rem 0.5rem #ded0f5;
 }
 
 .icon svg {
