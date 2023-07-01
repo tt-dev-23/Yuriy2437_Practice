@@ -109,23 +109,20 @@ html {
   margin-top: 1rem;
 }
 
-.btn_block {
+.btn_style {
   text-decoration: none;
   font-weight: bold;
-  font-family: sans-serif;
-  color: #ff2222;
   padding: 1.06rem 1.6rem;
-  margin: 0 0.5rem 0 0;
   border: 1px solid;
   border-radius: 0.5rem;
 }
 
+.btn_block {
+  color: #ff2222;
+  margin: 0 0.5rem 0 0;
+}
+
 .btn_allow {
-  text-decoration: none;
-  font-weight: bold;
   color: #24c446;
-  padding: 1.06rem 1.6rem;
   margin: 0 0 0 0.5rem;
-  border: 1px solid;
-  border-radius: 0.5rem;
 }
