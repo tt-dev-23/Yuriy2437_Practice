@@ -38,6 +38,7 @@ html {
   background-color: #f3ebfb;
   border-radius: 50%;
   margin-top: -1rem;
+  cursor: pointer;
 }
 
 .close_button_cross {
