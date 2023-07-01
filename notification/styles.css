@@ -88,6 +88,11 @@ html {
   color: #fff;
 }
 
+.icon svg {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
 .website {
   font-weight: 500;
   color: #151515;
