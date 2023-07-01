@@ -26,7 +26,6 @@ html {
 
 .header {
   display: flex;
-  justify-content: space-between;
 }
 
 .close_button {
@@ -39,6 +38,8 @@ html {
   border-radius: 50%;
   margin-top: -1rem;
   cursor: pointer;
+  position: absolute;
+  right: 24.7rem;
 }
 
 .close_button_cross {
@@ -87,7 +88,7 @@ html {
   border-radius: 1rem;
   background-image: linear-gradient(to bottom right, #737bff, #e07cff);
   color: #fff;
-  box-shadow: 0.25rem 0.25rem 0.5rem #ded0f5;
+  box-shadow: 0 0.25rem 0.25rem #ded0f5;
 }
 
 .icon svg {
