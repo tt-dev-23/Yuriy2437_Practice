@@ -85,27 +85,41 @@ html {
   background-position: center;
 }
 
-.avatar1 {
+.avatar_outer_style {
   width: 2rem;
   height: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar_inner_style {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.avatar1_inner {
   background-image: url("https://i.pravatar.cc/42");
-  border-radius: 50%;
 }
 
-.avatar2 {
-  width: 2rem;
-  height: 2rem;
+.avatar2_outer {
+  margin-left: -0.35rem;
+}
+
+.avatar2_inner {
   background-image: url("https://i.pravatar.cc/43");
-  border-radius: 50%;
-  margin-left: -0.25rem;
 }
 
-.avatar3 {
-  width: 2rem;
-  height: 2rem;
+.avatar3_outer {
+  margin-left: -0.35rem;
+}
+
+.avatar3_inner {
   background-image: url("https://i.pravatar.cc/44");
-  border-radius: 50%;
-  margin-left: -0.25rem;
 }
 
 .number {
