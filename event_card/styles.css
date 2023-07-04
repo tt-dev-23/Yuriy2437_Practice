@@ -13,15 +13,22 @@ html {
   background-color: #434f7a;
 }
 
-.card {
+.card_outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333f6b;
+  border-radius: 0.7rem;
+}
+
+.card_inner {
   display: flex;
   flex-direction: column;
   width: 25rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
   margin: 1.7rem;
-  outline: 1.7rem solid #333f6b;
   padding: 2.54rem;
   color: #132152;
 }
