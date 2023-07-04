@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  font-family: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3ebfb;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 34.5rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 3.4rem 2rem 3rem 4.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem #ded0f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 3.75rem;
+  height: 3.75rem;
+  background-color: #f3ebfb;
+  border-radius: 50%;
+  margin-top: -1rem;
+  cursor: pointer;
+}
+
+.close_button_cross {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+
+.close_button_cross::before,
+.close_button_cross::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #9e8eb9;
+}
+
+.close_button_cross::before {
+  transform: rotate(45deg);
+}
+
+.close_button_cross::after {
+  transform: rotate(-45deg);
+}
+
+.text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #38196b;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to bottom right, #737bff, #e07cff);
+  color: #fff;
+  box-shadow: 0 0.25rem 0.25rem #ded0f5;
+}
+
+.icon svg {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+.website {
+  font-weight: 500;
+  color: #151515;
+  padding-left: 0.5rem;
+}
+
+.btn_double {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.btn_style {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1.06rem 1.6rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+}
+
+.btn_block {
+  color: #ff2222;
+  margin: 0 0.5rem 0 0;
+}
+
+.btn_allow {
+  color: #24c446;
+  margin: 0 0 0 0.5rem;
+}
