@@ -37,13 +37,13 @@ html {
   color: #4c577f;
 }
 
-.text1 {
+.text:nth-child(2) {
   margin-top: 1.06rem;
   margin-bottom: 0;
   font-weight: 600;
 }
 
-.text2 {
+.text:nth-child(3) {
   margin-top: 0.312rem;
   margin-bottom: 1.2rem;
   font-weight: 600;
