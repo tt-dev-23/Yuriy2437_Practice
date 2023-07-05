@@ -67,8 +67,7 @@ html {
 .address {
   font-weight: 600;
   font-size: 0.8rem;
-  margin-left: 0.3rem;
-  margin-top: 0.25rem;
+  margin: 0.25rem 0 0 0.3rem;
 }
 
 .avatar {
