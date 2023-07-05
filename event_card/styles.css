@@ -70,13 +70,11 @@ html {
   margin: 0.25rem 0 0 0.3rem;
 }
 
-.avatar {
+.avatars {
   display: flex;
-  background-size: cover;
-  background-position: center;
 }
 
-.avatar_outer_style {
+.rim {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
@@ -86,31 +84,14 @@ html {
   align-items: center;
 }
 
-.avatar_inner_style {
+.avatar {
   width: 1.75rem;
   height: 1.75rem;
   border-radius: 50%;
-  background-size: cover;
 }
 
-.avatar1_inner {
-  background-image: url("https://i.pravatar.cc/42");
-}
-
-.avatar2_outer {
+.rim_margin {
   margin-left: -0.35rem;
-}
-
-.avatar2_inner {
-  background-image: url("https://i.pravatar.cc/43");
-}
-
-.avatar3_outer {
-  margin-left: -0.35rem;
-}
-
-.avatar3_inner {
-  background-image: url("https://i.pravatar.cc/44");
 }
 
 .number {
