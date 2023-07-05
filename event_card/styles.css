@@ -26,7 +26,7 @@ html {
   background-color: #fff;
   font-family: "Poppins", sans-serif;
   margin: 1.7rem;
-  padding: 2.54rem;
+  padding: 2.54rem 2.54rem 2.25rem 2.54rem;
   color: #132152;
 }
 
@@ -133,5 +133,4 @@ html {
   padding: 0.7rem 1.7rem;
   border: 1px solid;
   border-radius: 0.3rem;
-  margin-top: -0.312rem;
 }
