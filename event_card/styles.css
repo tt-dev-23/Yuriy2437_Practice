@@ -132,7 +132,6 @@ html {
 }
 
 .btn {
-  display: flex;
   background-color: #132152;
   color: #fff;
   text-decoration: none;
