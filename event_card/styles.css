@@ -38,7 +38,7 @@ html {
 }
 
 .text {
-  margin-top: 13px;
+  margin-top: 0.81rem;
   font-weight: 600;
   line-height: 1.4;
 }
@@ -66,18 +66,15 @@ html {
 
 .avatars {
   display: flex;
+  margin-left: 0.31rem;
 }
 
-.avatar {
+.avatars img {
   width: 1.75rem;
   height: 1.75rem;
   border-radius: 50%;
-  margin: 0.25rem;
-  outline: 0.25rem solid #fff;
-}
-
-.rim_margin {
-  margin-left: -0.35rem;
+  margin: 0.25rem -0.15rem;
+  outline: 0.15rem solid #fff;
 }
 
 .number {
