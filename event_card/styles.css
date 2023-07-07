@@ -37,16 +37,10 @@ html {
   color: #4c577f;
 }
 
-.text:nth-child(2) {
-  margin-top: 1.06rem;
-  margin-bottom: 0;
+.text {
+  margin-top: 13px;
   font-weight: 600;
-}
-
-.text:nth-child(3) {
-  margin-top: 0.312rem;
-  margin-bottom: 1.2rem;
-  font-weight: 600;
+  line-height: 1.4;
 }
 
 .location {
