@@ -45,6 +45,7 @@ html {
 
 .location {
   display: flex;
+  align-items: center;
   margin-bottom: 1.95rem;
 }
 
@@ -61,7 +62,7 @@ html {
 .address {
   font-weight: 600;
   font-size: 0.8rem;
-  margin: 0.25rem 0 0 0.3rem;
+  margin: 0 0 0 0.3rem;
 }
 
 .avatars {
