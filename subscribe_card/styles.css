@@ -62,7 +62,7 @@ html {
   border-radius: 0.5rem;
 }
 
-.btn_email {
+.email {
   background-color: #303037;
   color: #b4b4b7;
   width: 15rem;
@@ -71,7 +71,7 @@ html {
   margin-right: 0.5rem;
 }
 
-.btn_subscribe {
+.btn {
   background-color: #91c809;
   color: #3d5603;
   padding: 0.875rem 1.438rem;
