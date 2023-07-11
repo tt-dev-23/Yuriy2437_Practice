@@ -69,7 +69,7 @@ html {
   color: #b4b4b7;
   border-color: #6a6a6c;
   width: 15rem;
-  height: 3.19rem;
+  height: 3.14rem;
   padding: 0.875rem 1rem 0.875em 1.438rem;
   margin-right: 0.5rem;
 }
@@ -77,5 +77,6 @@ html {
 .btn {
   background-color: #91c809;
   color: #3d5603;
+  height: 2.94rem;
   padding: 0.875rem 1.438rem;
 }
