@@ -65,6 +65,8 @@ html {
 .btn_email {
   background-color: #303037;
   color: #b4b4b7;
+  width: 15rem;
+  height: 3.19rem;
   padding: 0.875rem 1rem 0.875em 1.438rem;
   margin-right: 0.5rem;
 }
