@@ -22,7 +22,9 @@ html {
   border-radius: 1rem;
   background-color: #303037;
   color: #132152;
-  outline: 0.625rem solid #34343b;
+  outline: 0.5rem solid #303037;
+  border-top: 0.01rem solid #3a3a3a;
+  border-right: 0.01rem solid #3a3a3a;
 }
 
 .photo {
