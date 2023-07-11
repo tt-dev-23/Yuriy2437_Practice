@@ -48,29 +48,38 @@ html {
 
 .content {
   font-family: "Arial", sans-serif;
-  color: #bababd;
+  color: #f3f3f3;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin: 0.438rem 0 0.875rem;
 }
 
 .text {
   line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.input_btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .btn_style {
   text-decoration: none;
   border: 0.0625rem solid;
   border-radius: 0.3rem;
+  font-weight: 600;
+  font-size: 0.8rem;
 }
 
 .email {
   background-color: #303037;
-  color: #b4b4b7;
+  color: #fff;
   border-color: #6a6a6c;
   width: 15rem;
-  height: 3.14rem;
-  padding: 0.875rem 1rem 0.875em 1.438rem;
+  height: 2.94rem;
+  padding: 0.6rem 1rem 0.9em 1.438rem;
   margin-right: 0.5rem;
 }
 
