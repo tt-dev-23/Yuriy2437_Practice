@@ -87,3 +87,11 @@ html {
   height: 2.94rem;
   padding: 0.875rem 1.438rem;
 }
+
+.btn:hover {
+  background-color: #f3d704;
+}
+
+.btn:active {
+  background-color: #e62503;
+}
