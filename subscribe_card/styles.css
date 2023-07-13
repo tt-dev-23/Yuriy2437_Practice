@@ -31,7 +31,7 @@ html {
   background-size: cover;
 }
 
-.text_part {
+.content {
   display: flex;
   flex-direction: column;
   padding: 3.4rem 3.94rem 3.6rem 2.33rem;
@@ -45,7 +45,7 @@ html {
   margin-bottom: 0.625rem;
 }
 
-.content {
+.text {
   font-family: "Arial", sans-serif;
   color: #f3f3f3;
   font-weight: 500;
