@@ -4,6 +4,10 @@ html {
   font-family: 16px;
 }
 
+:root {
+  --main-bg-color: #303037;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -16,7 +20,7 @@ html {
 .card {
   display: flex;
   border-radius: 1rem;
-  background-color: #303037;
+  background-color: var(--main-bg-color);
   color: #132152;
   outline: 0.5rem solid #303037;
   border-top: 0.01rem solid #3a3a3a;
@@ -68,7 +72,7 @@ html {
 }
 
 .email {
-  background-color: #303037;
+  background-color: var(--main-bg-color);
   color: #fff;
   border-color: #6a6a6c;
   width: 15rem;
