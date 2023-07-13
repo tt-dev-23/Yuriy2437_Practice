@@ -50,12 +50,8 @@ html {
   color: #f3f3f3;
   font-weight: 500;
   font-size: 0.8rem;
-  margin: 0.438rem 0 0.875rem;
-}
-
-.text {
+  margin: 0.438rem 0 1.1rem;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
 }
 
 .input_btn {
