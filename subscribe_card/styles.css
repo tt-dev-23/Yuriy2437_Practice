@@ -54,7 +54,7 @@ html {
   line-height: 1.6;
 }
 
-.input_btn {
+.form {
   display: flex;
   justify-content: flex-start;
   align-items: center;
