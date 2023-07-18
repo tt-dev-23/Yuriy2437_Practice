@@ -95,3 +95,95 @@ html {
 .btn:active {
   background-color: #e62503;
 }
+
+@media (min-width: 100px) and (max-width: 499px) {
+  .card {
+    width: 70%;
+  }
+
+  .photo {
+    height: 22vh;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .form_style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .email {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .card {
+    width: 80%;
+  }
+
+  .photo {
+    height: 30vh;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .form_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (min-width: 100px) and (max-width: 499px), (min-width: 500px) and (max-width: 800px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .photo {
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("Honey-garlic-chicken-meal-prep-6.jpg");
+    background-size: cover;
+  }
+
+  .content {
+    padding: 12%;
+  }
+
+  .text br {
+    display: none;
+  }
+
+  .email {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+}
