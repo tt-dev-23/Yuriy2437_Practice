@@ -89,11 +89,11 @@ html {
 }
 
 .btn:hover {
-  background-color: #f3d704;
+  background-color: #709c02;
 }
 
 .btn:active {
-  background-color: #e62503;
+  background-color: #4a6701;
 }
 
 @media (min-width: 100px) and (max-width: 499px) {
