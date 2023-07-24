@@ -40,18 +40,14 @@ html {
 }
 
 .header {
-  font-family: "Vidaloka", serif;
+  font: 600 1.4rem "Vidaloka", sans-serif;
   color: #fff;
-  font-size: 1.4rem;
-  font-weight: 600;
   margin-bottom: 0.625rem;
 }
 
 .text {
-  font-family: "Roboto", sans-serif;
+  font: 500 0.9rem "Roboto", sans-serif;
   color: #f3f3f3;
-  font-weight: 500;
-  font-size: 0.9rem;
   margin: 0.438rem 0 1.1rem;
   line-height: 1.6;
 }
@@ -63,12 +59,10 @@ html {
 }
 
 .form_style {
-  font-family: "Roboto", sans-serif;
+  font: 600 0.9rem "Roboto", sans-serif;
   text-decoration: none;
   border: 0.0625rem solid;
   border-radius: 0.3rem;
-  font-weight: 600;
-  font-size: 0.9rem;
 }
 
 .email {
