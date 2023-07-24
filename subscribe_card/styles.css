@@ -22,7 +22,7 @@ html {
   border-radius: 1rem;
   background-color: var(--main-bg-color);
   color: #132152;
-  outline: 0.5rem solid #303037;
+  outline: 0.5rem solid var(--main-bg-color);
   border-top: 0.01rem solid #3a3a3a;
   border-right: 0.01rem solid #3a3a3a;
 }
