@@ -98,14 +98,7 @@ html {
     height: 22vh;
   }
 
-  .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
+  .form,
   .form_style {
     display: flex;
     flex-direction: column;
@@ -129,14 +122,7 @@ html {
     height: 30vh;
   }
 
-  .form {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
+  .form,
   .form_style {
     display: flex;
     flex-direction: row;
