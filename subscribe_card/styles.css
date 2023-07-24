@@ -147,7 +147,6 @@ html {
 }
 @media (max-width: 800px) {
   .card {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
