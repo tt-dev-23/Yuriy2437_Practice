@@ -89,7 +89,7 @@ html {
   background-color: #4a6701;
 }
 
-@media (min-width: 100px) and (max-width: 499px) {
+@media (max-width: 499px) {
   .card {
     width: 70%;
   }
