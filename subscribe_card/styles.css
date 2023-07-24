@@ -156,8 +156,6 @@ html {
   .photo {
     width: 100%;
     box-sizing: border-box;
-    background-image: url("Honey-garlic-chicken-meal-prep-6.jpg");
-    background-size: cover;
   }
 
   .content {
