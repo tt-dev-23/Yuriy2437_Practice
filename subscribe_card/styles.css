@@ -107,6 +107,11 @@ html {
     justify-content: center;
     align-items: center;
   }
+
+  .email {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 800px) {
