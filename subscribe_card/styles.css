@@ -109,8 +109,10 @@ html {
   }
 
   .email {
-    /* margin-bottom: 1rem;
-    margin-left: 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
