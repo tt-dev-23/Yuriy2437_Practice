@@ -107,13 +107,6 @@ html {
     justify-content: center;
     align-items: center;
   }
-
-  .email {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 @media (min-width: 500px) and (max-width: 800px) {
