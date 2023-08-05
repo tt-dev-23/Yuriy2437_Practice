@@ -76,17 +76,19 @@ html {
 }
 
 .btn {
-  background-color: #91c809;
-  color: #3d5603;
+  background-color: #1f883d;
+  color: #f4feff;
   padding: 0.875rem 1.438rem;
 }
 
 .btn:hover {
-  background-color: #709c02;
+  background-color: #1a7f37;
+  color: #f1faf1;
 }
 
 .btn:active {
-  background-color: #4a6701;
+  background-color: #187733;
+  color: #fafcfa;
 }
 
 @media (max-width: 499px) {
@@ -150,12 +152,12 @@ html {
   .email {
     width: 100%;
     text-align: center;
-    padding: 0;
+    /* padding: 0; */
   }
 
   .btn {
     width: 100%;
     text-align: center;
-    padding: 0;
+    /* padding: 0; */
   }
 }
