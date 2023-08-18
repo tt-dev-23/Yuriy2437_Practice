@@ -71,8 +71,8 @@ html {
   border-color: #6a6a6c;
   width: 15rem;
   height: 2.94rem;
-  padding: 0.6rem 1rem 0.9em 1.438rem;
   margin-right: 0.5rem;
+  text-align: center;
 }
 
 .btn {
