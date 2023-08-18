@@ -83,10 +83,12 @@ html {
 
 .btn:hover {
   background-color: #739e05;
+  color: #212f01;
 }
 
 .btn:active {
   background-color: #5c7e06;
+  color: #000;
 }
 
 @media (max-width: 800px) {
