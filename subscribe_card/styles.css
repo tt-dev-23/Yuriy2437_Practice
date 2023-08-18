@@ -46,10 +46,9 @@ html {
 }
 
 .text {
-  font: 500 0.9rem "Roboto", sans-serif;
+  font: 500 0.9rem/1.6 "Roboto", sans-serif;
   color: #f3f3f3;
   margin: 0.438rem 0 1.1rem;
-  line-height: 1.6;
 }
 
 .form {
