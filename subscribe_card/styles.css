@@ -119,8 +119,7 @@ html {
     height: 22vh;
   }
 
-  .form,
-  .form_style {
+  .form {
     flex-direction: column;
     align-items: normal;
   }
