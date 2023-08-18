@@ -76,19 +76,20 @@ html {
 }
 
 .btn {
-  background-color: #1f883d;
-  color: #f4feff;
+  background-color: #91c809;
+  color: #3d5603;
+  text-align: center;
   padding: 0.875rem 1.438rem;
 }
 
 .btn:hover {
-  background-color: #1a7f37;
-  color: #f1faf1;
+  background-color: #739e05;
+  color: #3d5603;
 }
 
 .btn:active {
-  background-color: #187733;
-  color: #fafcfa;
+  background-color: #5c7e06;
+  color: #3d5603;
 }
 
 @media (max-width: 800px) {
