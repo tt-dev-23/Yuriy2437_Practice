@@ -39,16 +39,15 @@ html {
 .text_part {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
-.title {
+.text_part h3 {
   color: #fff;
   font: 600 0.7rem/1.6 "Poppins", sans-serif;
 }
 
-.text {
+.text_part h5 {
   color: #fff;
   font: 400 0.7rem/1.6 "Poppins", sans-serif;
 }
@@ -63,13 +62,21 @@ html {
   margin: 1.8rem 1rem 0.6rem 0;
 }
 
-.table {
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 13rem);
+}
+
+.block {
+  display: grid;
+  gap: 1.1rem;
   margin-left: 2rem;
   font: 500 0.7rem "Poppins", sans-serif;
   color: #5b5868;
-  display: grid;
-  grid-template-columns: repeat(2, 11rem);
-  gap: 1.1rem;
+}
+
+.block:nth-child(2) {
+  margin-left: 1.1rem;
 }
 
 .row:hover {
@@ -79,7 +86,7 @@ html {
   background-color: #f1f2ff;
 }
 
-.header_table {
+.header_block {
   margin-top: 1.2rem;
   color: #9091a4;
 }
