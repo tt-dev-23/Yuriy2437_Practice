@@ -32,7 +32,7 @@ html {
 .content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .text_part {
@@ -57,7 +57,6 @@ html {
   font-size: 0.7rem;
   padding: 0.35rem 0.85rem;
   border-radius: 0.35rem;
-  margin: 1.8rem 1rem 0.6rem 0;
 }
 
 .blocks {
