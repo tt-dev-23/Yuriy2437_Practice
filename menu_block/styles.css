@@ -40,14 +40,10 @@ html {
   flex-direction: column;
 }
 
-.text_part h3 {
-  color: #fff;
-  font: 600 0.7rem/1.6 "Poppins", sans-serif;
-}
-
+.text_part h3,
 .text_part h5 {
   color: #fff;
-  font: 400 0.7rem/1.6 "Poppins", sans-serif;
+  font: 600 0.7rem/1.6 "Poppins", sans-serif;
 }
 
 .btn {
