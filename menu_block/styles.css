@@ -35,11 +35,6 @@ html {
   align-items: flex-end;
 }
 
-.text_part {
-  display: flex;
-  flex-direction: column;
-}
-
 .text_part h3,
 .text_part h5 {
   color: #fff;
