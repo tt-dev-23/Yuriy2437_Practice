@@ -25,7 +25,7 @@ html {
 .notification {
   border-radius: 0.5rem;
   background-color: #626cd6;
-  padding: 0.75rem 1rem 0.75rem 1rem;
+  padding: 1rem;
   box-shadow: 0 10px 15px 0 #d7d9ed;
 }
 
