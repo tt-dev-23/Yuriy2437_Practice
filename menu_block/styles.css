@@ -95,22 +95,8 @@ html {
     align-items: flex-start;
   }
 
-  .notification {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-  }
-
-  .text_part {
-    grid-row: 1;
-    grid-column: 1;
-  }
-
   .btn {
-    grid-row: 3;
-    grid-column: 1;
-    align-self: end;
-    justify-self: end;
+    align-self: flex-end;
   }
 
   .blocks {
