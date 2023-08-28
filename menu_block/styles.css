@@ -88,6 +88,10 @@ html {
     align-items: flex-start;
   }
 
+  .text_part {
+    margin-bottom: 0.5rem;
+  }
+
   .btn {
     align-self: flex-end;
   }
