@@ -38,6 +38,10 @@ html {
   font: 600 0.7rem/1.6 "Poppins", sans-serif;
 }
 
+.text_part h5 span {
+  display: block;
+}
+
 .btn {
   text-decoration: none;
   background: #fff;
