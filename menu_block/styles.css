@@ -58,13 +58,14 @@ html {
 
 .block {
   display: grid;
-  margin-left: 0.7rem;
+
   font: 500 0.7rem "Poppins", sans-serif;
   color: #5b5868;
 }
 
 .row {
-  padding: 0.55rem 0;
+  padding: 0.55rem;
+  cursor: pointer;
 }
 
 .row:hover {
@@ -73,7 +74,7 @@ html {
 }
 
 .header_block {
-  margin: 0.7rem 0;
+  margin: 1.2rem 1.2rem 0.5rem 0.5rem;
   color: #9091a4;
 }
 
