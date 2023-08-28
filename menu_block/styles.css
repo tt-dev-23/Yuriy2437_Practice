@@ -78,7 +78,7 @@ html {
     width: 85%;
   }
 
-  .content {
+  .notification {
     flex-direction: column;
     align-items: flex-start;
   }
