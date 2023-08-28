@@ -15,11 +15,12 @@ html {
 .card {
   display: flex;
   flex-direction: column;
-  width: 26.875rem;
+  max-width: 50rem;
   border-radius: 1rem;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
   padding: 1.3rem;
+  margin: 1rem;
 }
 
 .notification {
