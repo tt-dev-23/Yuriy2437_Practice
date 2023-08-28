@@ -27,9 +27,6 @@ html {
   background-color: #626cd6;
   padding: 1rem;
   box-shadow: 0 10px 15px 0 #d7d9ed;
-}
-
-.content {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
