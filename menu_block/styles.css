@@ -30,6 +30,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  gap: 3rem;
 }
 
 .text_part h3,
@@ -38,11 +39,8 @@ html {
   font: 600 0.7rem/1.6 "Poppins", sans-serif;
 }
 
-.text_part h5 span {
-  display: block;
-}
-
 .btn {
+  white-space: nowrap;
   text-decoration: none;
   background: #fff;
   color: #3e4662;
@@ -58,7 +56,6 @@ html {
 
 .block {
   display: grid;
-
   font: 500 0.7rem "Poppins", sans-serif;
   color: #5b5868;
 }
@@ -86,6 +83,7 @@ html {
   .notification {
     flex-direction: column;
     align-items: flex-start;
+    gap: 0;
   }
 
   .text_part {
