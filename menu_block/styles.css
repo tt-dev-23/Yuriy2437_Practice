@@ -34,10 +34,16 @@ html {
   gap: 0.7rem;
 }
 
-.text_part h3,
-.text_part h5 {
+.text_part {
   color: #fff;
+}
+
+.text_part h3 {
   font: 600 0.7rem/1.6 "Poppins", sans-serif;
+}
+
+.text_part h5 {
+  font: 400 0.7rem/1.6 "Poppins", sans-serif;
 }
 
 .btn {
