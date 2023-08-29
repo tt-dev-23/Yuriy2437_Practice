@@ -75,3 +75,9 @@ html {
   margin: 1.2rem 1.2rem 0.5rem 0.5rem;
   color: #9091a4;
 }
+
+@media (max-width: 499px) {
+  .blocks {
+    grid-template-columns: auto;
+  }
+}
