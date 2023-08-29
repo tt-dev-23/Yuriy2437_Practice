@@ -31,7 +31,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 0.7rem;
+  gap: 1.5rem;
 }
 
 .text_part {
