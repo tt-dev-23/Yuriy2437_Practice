@@ -83,6 +83,19 @@ html {
 }
 
 @media (max-width: 499px) {
+  .notification {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+  }
+
   .blocks {
     grid-template-columns: auto;
   }
