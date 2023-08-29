@@ -75,27 +75,3 @@ html {
   margin: 1.2rem 1.2rem 0.5rem 0.5rem;
   color: #9091a4;
 }
-
-@media (max-width: 499px) {
-  .card {
-    width: 85%;
-  }
-
-  .notification {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0;
-  }
-
-  .text_part {
-    margin-bottom: 0.5rem;
-  }
-
-  .btn {
-    align-self: flex-end;
-  }
-
-  .blocks {
-    grid-template-columns: auto;
-  }
-}
