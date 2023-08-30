@@ -9,3 +9,5 @@
 [Subscribe Card](https://tt-dev-23.github.io/Yuriy2437_Practice/subscribe_card/index.html)
 
 [Menu Block](https://tt-dev-23.github.io/Yuriy2437_Practice/menu_block/index.html)
+
+[Application Card](https://tt-dev-23.github.io/Yuriy2437_Practice/app_card/index.html)
