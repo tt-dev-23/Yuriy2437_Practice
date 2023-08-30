@@ -62,7 +62,6 @@ html {
 }
 
 .block {
-  display: grid;
   font: 500 0.7rem "Poppins", sans-serif;
   color: #5b5868;
 }
