@@ -89,10 +89,8 @@ html {
   }
 
   .btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: stretch;
+    width: 100%;
+    text-align: center;
   }
 
   .blocks {
