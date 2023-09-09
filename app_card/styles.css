@@ -65,19 +65,19 @@ img {
   margin-left: 1.125rem;
 }
 
-.text1 {
+.text h5 {
   margin: 0;
   color: #b6bef2;
   font: 600 1.5rem/2.2 "Vidaloka", serif;
 }
 
-.text2 {
+.text a {
   margin: 0;
   color: #b9437f;
   font: 400 0.9rem "Poppins", sans-serif;
 }
 
-.text2 span.gray {
+.text a span.gray {
   color: #b6bef2;
 }
 
@@ -156,7 +156,7 @@ img {
   margin-left: 0.375rem;
 }
 
-.text3 {
+.star_container h5 {
   margin: 0 0 0 0.5625rem;
   color: #b6bef2;
   font: 400 0.81rem "Poppins", sans-serif;
