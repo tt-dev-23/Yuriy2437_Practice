@@ -90,9 +90,6 @@ img {
 }
 
 .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
   background: #ff529b;
   color: #fff;
