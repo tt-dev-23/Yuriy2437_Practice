@@ -34,7 +34,6 @@ html {
 }
 
 .breadcrumb {
-  margin: 0;
   font: 400 0.9rem "Poppins", nssa-serif;
   color: #b9437f;
 }
@@ -66,13 +65,11 @@ img {
 }
 
 .text h5 {
-  margin: 0;
   color: #b6bef2;
   font: 600 1.5rem/2.2 "Vidaloka", serif;
 }
 
 .text a {
-  margin: 0;
   color: #b9437f;
   font: 400 0.9rem "Poppins", sans-serif;
 }
