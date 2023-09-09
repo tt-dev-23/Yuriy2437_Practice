@@ -10,7 +10,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100rem;
   height: 100vh;
   background-color: #171b34;
 }
