@@ -27,6 +27,7 @@ html {
 }
 
 .breadcrumbs_card {
+  margin: 5%;
   width: 100%;
   max-width: 62.5rem;
 }
