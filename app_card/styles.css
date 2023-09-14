@@ -39,6 +39,7 @@ html {
   background-color: var(--card-bg-color);
   font-family: "Poppins", sans-serif;
   padding: 3rem;
+  gap: 1.5rem;
 }
 
 .breadcrumbs {
