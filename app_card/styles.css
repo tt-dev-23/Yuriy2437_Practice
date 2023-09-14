@@ -103,8 +103,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 11.25rem;
-  height: 2.923rem;
+  padding: 1rem 1.3rem;
   background: var(--star-container-bg-color);
   margin-top: 0.8rem;
   border-radius: 1.5rem;
