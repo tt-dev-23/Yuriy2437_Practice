@@ -78,11 +78,6 @@ html {
   color: var(--highlight-color);
 }
 
-.text h5:nth-child(2),
-.text a {
-  display: inline;
-}
-
 .text a {
   color: var(--breadcrumb-color);
   font: 400 0.9rem "Poppins", sans-serif;
