@@ -70,12 +70,12 @@ html {
   margin-left: 1.125rem;
 }
 
-.text h5:nth-child(1) {
+.text h5 {
   color: var(--highlight-color);
   font: 600 1.5rem/2.2 "Vidaloka", serif;
 }
 
-.text h5:nth-child(2) {
+.text p {
   color: var(--highlight-color);
 }
 
