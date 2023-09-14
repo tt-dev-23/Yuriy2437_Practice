@@ -159,3 +159,22 @@ html {
   color: var(--highlight-color);
   font: 400 0.81rem "Poppins", sans-serif;
 }
+
+@media (max-width: 570px) {
+  .card {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .star_container {
+    width: 100%;
+  }
+
+  .icon {
+    flex-shrink: 0;
+  }
+}
