@@ -91,6 +91,7 @@ html {
 
 .btn {
   text-decoration: none;
+  text-align: center;
   background: var(--button-bg-color);
   color: var(--button-text-color);
   font: 600 1.05rem "Arial", sans-serif;
